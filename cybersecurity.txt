@@ -1,0 +1,155 @@
+network-
+networking-interconnection between two or more devices
+internet-interconnection between networks
+types of communication-unicast(one to one communication.ex-bluetooth earphone)
+broadcast(one to all)
+multicast(one to many)with the help of multicast only a device can connect with other networks)
+modes of communication
+-simplexeg-keyboard
+-half-duplex-eg-walkie talkie
+-full-duplex-eg-mobile phones and laptops
+,medium of transmission
+MAC address(media access control address)
+OUI and MAC address
+MAC address format-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fmac-address-in-computer-network%2F&psig=AOvVaw0nEPSEXZpH7_eD2rU80hP4&ust=1697089215442000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCY44-k7YEDFQAAAAAdAAAAABAE
+it is also called physical address of a machine
+it is engraved on your machine
+NIC-network interface card
+IP address-Internet protocols
+types of IP address-
+IPV4-32 bits format(X.X.X.X) x-decimal form(0 to 255)
+IPV6-128 bits format(X:X:X:X:X:X:X:X) x-hexadecimal form
+ipv4-4 divisons-4 octets
+ipv6-8 divisons-8 hextets
+2 power 0 ru neiki 2 power 7 jai plus karile 255 hauchi sum so ame 255 lekhuchu...
+11001000.01100100.11000000.00000010(200.100.192.2)
+01100100.11001000.11111000.11111010(100.200.250.252)
+01100110.11001001.11111101.11111011(102.201.255.253)
+class A-0 TO 127
+class B-128 TO 191
+class C-192 TO 223
+class D-224 TO 239
+class E-239 TO 255
+SUBNETS:-
+CIDR(classless interdomain routing)
+/x-/32 where x denotes number of network bits
+two types of bits-network and host
+class a,b,c ip address jaka public ku use karibaku use hauchi
+class d is reserved for multicasting
+class e is reserved for defence and research
+A-N.H.H.H here n=8,h=24
+B-N.N.H.H here n=16,h=16
+C-N.N.N.H here n=24,h=8
+H denotes host bits
+N denotes Network bits
+network bits-on bits (1)
+host bits-off bits(0)
+C=N.H.H.H=255.0.0.0
+B=N.N.H.H=255.255.0.0
+C=N.N.N.H=255.255.255.0
+CIDR    |      SUBNETMASK    |	NO. OF NETWORKS	| NO. OF HOSTS
+1       |      128.0.0.0	FORMULA-2^N		2^H-2
+2       |      192.0.0.0    
+3       |     224.0.0.0      
+4       |     240.0.0.0
+5       |     248.0.0.0
+6       |     252.0.0.0
+7       |     254.0.0.0           
+8       |     255.0.0.0
+9       |     255.128.0.0
+10      |      255.192.0.0
+11      |      255.224.0.0        
+12      |      255.240.0.0
+13      |      255.248.0.0
+14      |      255.252.0.0
+15      |      255.254.0.0
+16      |      255.255.0.0
+17      |      255.255.128.0
+18      |      255.255.192.0
+19      |      255.255.224.0
+20      |      255.255.240.0
+21      |       255.255.248.0
+22      |      255.255.252.0
+23      |      255.255.254.0
+24      |      255.255.255.0
+25      |     255.255.255.128                     
+26      |      255.255.255.192
+27      |      255.255.255.224
+28      |      255.255.255.240
+29	|	255.255.255.248
+30	|	255.255.255.252
+31	|	255.255.255.254
+32	|	255.255.255.255
+OSI MODEL:-
+1.layer approach model
+2.referenced model
+3.7 layers:-
+4.theoritical approach
+7-APPLICATION
+6-PRESENTATION
+5-SESSION
+4-TRANSPORT
+3-NETWORK
+2-DATA LINK
+1-PHYSICAL
+THE FIRST LAYER IS:-
+1-PHYSICAL:-
+*Data are being transmitted in the form of bits and bytes.
+*physical devices works here.
+2-DATA LINK:-
+*Mac Addresses works at this layer.Devices like switch,bridge 
+*Data Frames
+3-NETWORK:-
+*IP Address works at this level like router and multilayer switch(packets)
+4-TRANSPORT:-
+*used to transfer data packets to upper level
+two protocols work at this level
+*TCPI and DCPI
+5-SESSION
+*time limited window/frame.create dominate and terminate.
+6-PRESENTATION
+*two standard conversion for data ASCII,EBCDI
+*encryption and decryption takes place at this level.
+7-APPLICATION
+*provides interface(GUI and CLI)
+PORTS:-
+two types(physical and logical)
+physical ports are those junctions where any device can connect to my device
+Logical ports are some protocols on some services
+total parts of port-65,535.
+wellknown ports-
+1-1024 ports
+some of the important ports are:-
+20/21 - FTP
+22-  SSH
+23 - Telnet
+25-  SMTP
+80-  http
+139-  
+443-
+445 -
+LINUX:-
+Operating System
+free to run,modify
+open sourced
+PII-personal Identifiable information
+CIA TRIAD-CONFIDENTIALITY,INTEGRITY,AVAILIBILITY.
+Terminologies:-
+>Threat
+>Risk
+>Attack
+>Weakness
+>Vulnerability
+wifi(data transfer through tcp and udp)
+TCP:-0
+
+
+
+
+
+
+
+
+
+
+
