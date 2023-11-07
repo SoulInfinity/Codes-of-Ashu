@@ -8,13 +8,13 @@ abstract class Shape
 }
 class Rectangle extends Shape
 {
-    void h1()
+    void msg1()
     {
         System.out.println("Drawing a Rectangle");
     }
 }
 class Circle extends Shape{
-    void m()
+    void msg2()
     {
         System.out.println("Drawing a circle");
     }
@@ -22,9 +22,9 @@ class Circle extends Shape{
 public class Q2 {
     public static void main(String[] args) {
         Circle obj = new Circle();
-        obj.m();
+        obj.msg2();
         obj.msg();
         Rectangle obj1 = new Rectangle();
-        obj1.h1();
+        obj1.msg1();
     }
 }

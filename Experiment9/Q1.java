@@ -10,7 +10,7 @@ interface B
 {
     default void m2()
     {
-        System.out.println("This is Interface I2");
+        System.out.println("This is Interface B");
     }
 }
 class C implements A,B
