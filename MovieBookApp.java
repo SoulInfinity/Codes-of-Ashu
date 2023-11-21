@@ -1,7 +1,7 @@
 class BookTheatreSeat 
 {
     int total_seats=10;
-    void BookSeat(int seats)
+     synchronized void BookSeat(int seats)
     {
         if(total_seats>=seats)
         {
